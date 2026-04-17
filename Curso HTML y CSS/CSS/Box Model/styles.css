@@ -1,0 +1,38 @@
+.formulario{
+    width: 250px;
+    height: 150px;
+    padding: 4px 5px;
+    box-sizing: border-box; /*esto hace que el tamaño de la caha se adapte al alto y ancho que definimos, y no al contenido */
+    border: 5px solid #003cff; /* los bordes se pueden definir directamente en ina linea 1ero el grosor, sigue al opacidad o esilo y por ultimo el color
+    esto es la forma del rgb en hexa, lso primeros 2 numeros son del red, lo que sigue green y lo ultimo blue.
+    hay mas forma de elegir colores: rgb y hsl. pero el rgb exa es la mas usada y sencilla
+    https://htmlcolorcodes.com/color-picker/  esta es una pagina web que ayuda con el tema del color*/
+}
+h3{
+    margin: 5px 10px 10px 0px;
+    width: 250px;
+}
+.formulario_input{
+    padding: 2px;
+    width: 90%;
+    margin: 2px;
+    color: hsla(230, 100%, 47%, 0.902);/*color (hay una rueda de 360 grados que los define), saturacion, brillo, opacidad (0-1)
+    es comodo para colores pastel*/
+    
+
+}
+.formulario_submit{
+    width: 50%;
+    margin-top: 5px;/* la separacion total es de 5px, no 7px. 
+    porque lo que hace el margin colapse es tomar la distancia mas grande unicamente, no sumar ambas*/
+}
+div{
+    margin: 0;
+}
+body{
+    margin: 3px;
+}
+h1{
+    text-decoration: underline;
+    font-weight: 600; 
+}

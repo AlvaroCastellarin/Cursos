@@ -1,0 +1,58 @@
+.alvaro{
+    width: 50%;
+    height: 50%;
+    display: block;
+    border-radius: 100%;
+    border: 10px grey solid;
+    margin:auto;
+}
+body{
+    background-color: rgb(212, 212, 201);
+}
+.cartaPresentacion{
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+    height: 60%;
+    background-color: #c9c9c9;
+    border: 10px #1d1c1cea solid;
+    border-radius: 10%;
+    box-shadow: 0 0 25px #0007;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font: italic;
+}
+.cont{
+    width: 30px;
+    border-radius: 100%;
+    border: 4px grey solid;
+    background-color: #adadad;
+}
+
+.contacto{
+    margin: 10px auto 10px auto;
+    width: 60%;
+    height: 60px;
+    background-color: #c9c9c9;
+    border: 5px #1d1c1cea solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 25px #0007; 
+}
+.item{
+    display: flex; /*ordena los elementos uno al lado del otro*/
+    align-items: center;
+    gap: 5px;
+}
+.infoCont{
+    font-size: 13.5px;
+    color:#1d1c1cea;
+    text-decoration: dashed;
+}

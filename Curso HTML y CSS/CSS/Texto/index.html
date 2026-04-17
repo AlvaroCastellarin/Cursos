@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enlazar CSS</title>
+    <link rel="stylesheet" href="styles.css"> <!--con esto enlazamos una hoja de estilos, donde ponemos las configuraciones css-->
+</head>
+<body>
+    <h1>Receta <span>Papas al Horno</span></h1> <!--El span es para referencia esa pequena parte del texto y aplicarle lo que queramos-->
+    <h2>Ingredientes:</h2>
+    <ul>
+        <li class="Importantes">Papas 300gr</li> <!--Esto del class es un atributo para poder referenciar a esos elementos y editarlos como queramos-->
+        <li class="Importantes">Manteca 5gr</li>
+        <li class="Opcional">Ajo 1dt</li>
+        <li class="Opcional">Pimenton 5gr</li>
+        <li>Sal y pimienta al gusto</li>
+    </ul>
+    <!--Otro atributo que existe, pero eso SOLO SE USA UNA VEZ, es el id (el la hoja de cess se referencia con un #). Este atribto le comunica al navegador que va a ser un identificador unico, se usa en solo un elemento-->
+    <h2>Procedimientos:</h2>
+    <ol>
+        <li class="Importantes">Lavar las papas con abundante agua</li>
+        <li class="Importantes">Pecalentar el horno a 200 grados</li>
+        <li class="Opcional">Pelar las papas</li>
+        <li class="Importantes">Cortar las papas en gajos o cubos y enjuagarlas hasta que el agua salga transparente</li>
+        <li>Agregar los condimentos</li>
+        <li class="Opcional">Pelar un diente de ajo y cortarlo por el medio</li>
+        <li class="Importantes">Una vez precalentado el horno, esparcir la manteca sobre la fuente</li>
+        <li id="Obvio">Poner las papas en la fuente y luego la fuente al horno</li>
+        <li class="Importante">Cocinar las papas a 200 grados por 45'</li>
+        <li class="Opcional">Subir la temperatura del horno a 250 grados por 5' para obeter un dorado mas corcante</li>
+    </ol>
+</body>
+</html>

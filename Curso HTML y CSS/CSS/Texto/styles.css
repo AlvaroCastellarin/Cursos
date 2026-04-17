@@ -1,0 +1,34 @@
+h2{ /*Seleccion por elemento*/
+    text-decoration: underline;
+}
+h1{
+        text-align: center;
+        text-transform: capitalize; /*puede ser uppercase y lowercase*/
+}
+.Importantes{ /*Seleccion por clase*/
+    color: red;
+    font-weight: bold; /*esto lo podemos reemplazar por <strong> en HTML, que lo que hace es ponerlo en negrita y ademas darle pero en el CEO (busqueda)
+    Tmbien se le puede seleccionaer el grosor, en vez de ponerle negrita (entre 100 - 900, depende del tipo de fuente para que haya mayor), tambien existe bolder que lo que hacer es hacer la fuente unpaso mas aelante que bold */
+    font-family: 'arial'; /*Esto es para asignar tipos de fuentes, 
+    las comillas son solo necesarias cuando el nombre de la fuente tiene un espacio en el medio, 
+    pero pongamoslo siempre cosa de no errar.
+    Se pone una coma despues del primer tipo de fuente para que, si la primera no existe en el navegador, cargue la 2da (se pueden poner las que quieran)*/
+    font-size: 17px;
+}
+.Opcional{
+    color: green
+}
+li{
+    text-align: justify;
+    line-height: 1.5; /*Interlineado*/
+    letter-spacing: 0.5px; /*Separado entre letras*/
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400; 
+}
+span{
+    font-weight: bold;
+    font-style: italic; /*italic es cursiva, oblique es un poco menos inclinada y si al oblique le agregamos los grados al lado, le podemos ajustar la iclinacion al gusto */
+}
+#Obvio{ /*Seleccion por id*/
+    color: blue;
+}
